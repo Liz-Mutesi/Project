@@ -9,40 +9,35 @@
   <body>
     <div class="container-fluid bg-main">
       <div class="row" style="border: 15px;">
-        <!-- <div class="col-md-3 offset-md-3 bg-light"> -->
+        <div class="col-md-4 offset-md-4 bg-light signUp-box">
          <div class="mb-2">
             <h2 style="text-align: center"> Client Registration Form </h2>
             <form name="RegForm" action="" method="post" class="regForm" onsubmit="return validationForm()">
        <br>
         <div>
-        <label for="Name"> Client Name*</label>
-        <input type="text" id="Name" size="60" name="Name">
-        <input  type="checkbox" id="checkbox" name="checkbox">
-        <!-- <small name="nameerror"></small> -->
+        <label class="required-field" for="Name"> Client Name</label>
+        <input type="text" id="Name" size="40" name="Name" class="style border line">
+        
       </div>
       <br>
       <div>
-        <label for="E-mail">Client E-mail *</label>
-        <input type="text" id="E-mail" size="60" name="Email">
-        <input type="checkbox" id="checkbox" name="checkbox">
+        <label class="required-field" for="E-mail">Client E-mail </label>
+        <input type="text" id="E-mail" size="40" name="Email" class="style border line">
+            </div>
+      <br>
+      <div>
+        <label class="required-field" for="Location">Location </label>
+        <input type="text" id="Location" size="40" name="location" class="style border line">
       </div>
       <br>
       <div>
-        <label for="Location">Location *</label>
-        <input type="text" id="Location" size="60" name="location">
-        <input type="checkbox" id="checkbox" name="checkbox">
+        <label class="required-field" for="NIN">National Identification Number/BRN </label>
+        <input type="text" id="NIN" size="40" name="nin" class="style border line">
       </div>
       <br>
       <div>
-        <label for="NIN">National Identification Number/BRN *</label>
-        <input type="text" id="NIN" size="60" name="nin">
-        <input type="checkbox" id="checkbox" name="checkbox">
-      </div>
-      <br>
-      <div>
-        <label for="Telephone">Telephone * </label>
-        <input type="text" id="Telephone" size="60" name="Telephone">
-        <input type="checkbox" id="checkbox" name="checkbox">
+        <label class="required-field" for="Telephone">Telephone </label>
+        <input type="text" id="Telephone" size="40" name="Telephone" class="style border line"> 
       </div>
       <br>
       <div>
@@ -56,7 +51,7 @@
       </div> 
       <br>
       <div class="buttons">
-        <input type="submit" value="Submit" name="Submit" style="background-color: rgb(6, 105, 6); border-radius: 10%; border: none;">
+        <input type="submit" value="Submit" name="Submit" style="background-color: rgb(6, 105, 6); color: white; border-radius: 5px;">
         <!-- <input type="reset" value="Reset" name="Reset"> -->
       </div>
     </form>

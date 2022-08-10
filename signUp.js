@@ -57,7 +57,7 @@ function validationForm(){
     if(phone.value == "" || phone.value.length != 10){
         //alert("Please enter a valid phone number");
         phone.style.border = "2px solid red";
-        //phone.focus();
+        phone.focus();
         return false;
     } else { phone.style.border = "2px solid green";
 
