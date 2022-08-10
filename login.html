@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Form validation</title>
+  <link rel="stylesheet" href="login.css">
+  <link rel="stylesheet" href="/css/bootstrap 5.1.3/css/bootstrap.css">
+
+</head>
+
+<body>
+  <div class="container-fluid bg-main" >
+    <div class="row" style="border: 15px;">
+      <div class="col-md-4 offset-md-4 bg-light login-box">
+        <div class="mb-3">
+          <h2 style="text-align: center"> Login </h2>
+          <br>
+          <form name="RegForm" action="" method="post" class="w3docs" onsubmit="return validationForm()">
+            <div>
+              <label for="Name">User Name:</label>
+              <input type="text" id="Name" size="40" name="Name">
+              <!-- <small name="nameerror"></small> -->
+            </div>
+            <br>
+            <div>
+              <label for="E-mail">E-mail Address:</label>
+              <input type="text" id="Email" size="40" name="Email">
+            </div>
+            <br>
+            <div>
+              <label for="Password">Password:</label>
+              <input type="text" id="Password" size="40" name="Password">
+              <h6 href="#" class="font-size xx-small">Forgot Password?</h6>
+            </div>
+            <br>
+            <div>
+              <label for="Telephone">Telephone: </label>
+              <input type="text" id="Telephone" size="40" name="Telephone">
+            </div>
+            <br>
+            <div>
+              <!-- <label>Select Book</label>
+        <select type="text" value="" name="Subject">
+          <option></option>
+          <option>HTML</option>
+          <option>CSS</option>
+          <option>PHP</option>
+          <option>JavaScript</option>
+        </select>
+      </div> -->
+              <br>
+              <div class="buttons">
+                <input type="submit" value="Submit" name="Submit">
+                <!-- <input type="reset" value="Reset" name="Reset"> -->
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    </form>
+    <script src="login.js" src="/js/bootstrap.bundle.js">
+    
+      
+
+    </script>
+</body>
+
+</html>
