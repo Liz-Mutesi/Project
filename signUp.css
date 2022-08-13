@@ -5,13 +5,13 @@
     font-family: sans-serif, bold, Arial, Helvetica;
     font-size: 14px;
     padding-bottom: 1rem;
-    color: rgb(6, 105, 6);
+    color: rgb(29, 23, 88);
   }
   .buttons {
     display: flex;
     align-items: center;
     width: 100%;
-    color: rgb(6, 105, 6);
+    color: rgb(29, 23, 88);
   }
   div input {
     margin-right: 10px;
@@ -34,7 +34,7 @@
     margin-bottom: 5px;
   }
   input[type=submit]:hover {
-    background-color: rgb(6, 105, 6);
+    background-color: rgb(29, 23, 88);
     color: #ffffff;
     border: none;
     border-radius: 10%;
@@ -48,10 +48,10 @@
     border-style: none;
 }
 .bg-main {
-    background-color: rgb(234, 240, 236);
+    background-color: rgb(231, 229, 236);
     padding-top: 1rem;
     padding-bottom: 5rem;
-    background-image: url(/img/corn-dusan.png);
+    /* background-image: url(/img/corn-dusan.png); */
     }
 .required-field::after {
   content: "*";
@@ -59,7 +59,7 @@
   font-size: small;
 }
 h2 {
-  color: rgb(6, 105, 6);
+  color: rgb(29, 23, 88);
 }
 .signUp-box {
 border-radius: 15px;

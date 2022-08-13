@@ -34,10 +34,10 @@
     display: block;
     width: 100%;
     margin-bottom: 5px;
-    color: rgba(0, 128, 0, 0.973);
+    color: rgb(29, 23, 88);
   }
   input[type=submit]:hover {
-    background-color: rgba(0, 128, 0, 0.973);
+    background-color: rgb(29, 23, 88);
     color: #ffffff;
     border: none;
     border-radius: 10%;
@@ -45,7 +45,7 @@
     font-weight: 500;
 } 
 h2 {
-  color: rgba(0, 128, 0, 0.973);
+  color: rgb(29, 23, 88);
 }
 h6 {
   color:rgb(59, 59, 231);
@@ -53,12 +53,13 @@ h6 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 input[type=submit] {
-  color: rgba(0, 128, 0, 0.973);
+  color: rgb(29, 23, 88);
 }
 .login-box {
   border-radius: 15px;
   margin-bottom: 20rem;
 }
 .bg-main {
-  background: url("/img/corn-dusan.png");
+  background-color: rgb(231, 229, 236);
+  /* background: url("/img/corn-dusan.png"); */
 }
