@@ -1,0 +1,26 @@
+.topnav {
+    height: 60px;
+}
+
+.sidenav {
+    margin-right: 2rem;
+    height: 550px;
+}
+.sales-1 {
+    margin-right: 2rem;
+    height: 200px;
+    border-radius: 15px;
+}
+.sales-2 {
+    margin-right: 2rem;
+    height: 200px;
+    border-radius: 15px;
+}
+.sales-3 {
+    margin-right: 2rem;
+    height: 200px;
+    border-radius: 15px;
+}
+.icon-fa {
+    color: black;
+}
